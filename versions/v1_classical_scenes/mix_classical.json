@@ -1,0 +1,34 @@
+{
+  "duration": 300.0,
+  "out": "audio/soundtrack.wav",
+  "end_fade": 0.4,
+  "segments": [
+    {"id": "toccata",     "src": "audio/sources/bach_bwv565/bach_bwv565.wav",                         "in": 0.25,  "at": 0.0,   "dur": 12.8, "fade_in": 0.01, "fade_out": 2.0,  "gain_db": 0,  "sub": {"hz": 36.71, "gain_db": -8}},
+    {"id": "gnossienne",  "src": "audio/sources/satie_gnossienne1/satie_gnossienne1.wav",             "in": 3.95,  "at": 15.0,  "dur": 50.0, "fade_in": 0.01, "fade_out": 2.5,  "gain_db": 3},
+    {"id": "fugue",       "src": "audio/sources/bach_bwv565/bach_bwv565.wav",                         "in": 133.0, "at": 65.0,  "dur": 60.0, "fade_in": 1.5,  "fade_out": 0.01, "gain_db": 3,  "sub": {"hz": 36.71, "gain_db": -11}},
+    {"id": "danse",       "src": "audio/sources/saintsaens_dansemacabre/saintsaens_dansemacabre.wav", "in": 48.0,  "at": 125.5, "dur": 54.5, "fade_in": 0.05, "fade_out": 1.5,  "gain_db": 0,  "sub": {"hz": 49.0,  "gain_db": -11}},
+    {"id": "baldmountain","src": "audio/sources/mussorgsky_baldmountain/mussorgsky_baldmountain.wav", "in": 421.5, "at": 180.0, "dur": 75.0, "fade_in": 1.5,  "fade_out": 0.03, "gain_db": 0,  "sub": {"hz": 36.71, "gain_db": -9}},
+    {"id": "reverie",     "src": "audio/sources/debussy_reverie/debussy_reverie.wav",                 "in": 0.1,   "at": 256.0, "dur": 44.0, "fade_in": 0.3,  "fade_out": 4.0,  "gain_db": 5}
+  ],
+  "fx": [
+    {"type": "impact",      "at": 0.0,  "dur": 3.0, "gain_db": -6},
+    {"type": "whoosh",      "at": 2.6,  "dur": 1.2, "gain_db": -8},
+    {"type": "paulstretch", "src": "audio/sources/bach_bwv565/bach_bwv565.wav", "in": 3.0, "len": 1.2, "stretch": 14, "at": 3.0, "dur": 12.3, "fade_in": 1.0, "fade_out": 0.6, "gain_db": -9},
+    {"type": "heartbeat",   "at": 5.5,  "dur": 9.4, "bpm": 72, "gain_db": -4, "fade_in": 1.0, "fade_out": 0.3},
+    {"type": "whoosh",      "at": 6.4,  "dur": 0.5, "gain_db": -10},
+    {"type": "whoosh",      "at": 8.8,  "dur": 0.5, "gain_db": -10},
+    {"type": "whoosh",      "at": 11.2, "dur": 0.5, "gain_db": -10},
+    {"type": "riser",       "at": 9.0,  "dur": 5.95, "gain_db": -9},
+    {"type": "stutter",     "at": 4.1,  "slice": 0.09,  "repeats": 5},
+    {"type": "stutter",     "at": 8.3,  "slice": 0.06,  "repeats": 8},
+    {"type": "stutter",     "at": 11.6, "slice": 0.045, "repeats": 12},
+    {"type": "silence",     "at": 14.95,"dur": 0.1},
+    {"type": "paulstretch", "src": "audio/sources/bach_bwv565/bach_bwv565.wav", "in": 182.0, "len": 1.0, "stretch": 10, "at": 63.0, "dur": 4.5, "fade_in": 2.0, "fade_out": 2.0, "gain_db": -12},
+    {"type": "stutter",     "at": 124.95, "slice": 0.05, "repeats": 10},
+    {"type": "paulstretch", "src": "audio/sources/saintsaens_dansemacabre/saintsaens_dansemacabre.wav", "in": 101.0, "len": 1.0, "stretch": 12, "at": 177.0, "dur": 6.0, "fade_in": 2.5, "fade_out": 3.0, "gain_db": -10},
+    {"type": "riser",       "at": 250.0, "dur": 5.0, "gain_db": -10},
+    {"type": "silence",     "at": 255.0, "dur": 1.0},
+    {"type": "impact",      "at": 256.0, "dur": 3.0, "gain_db": -14},
+    {"type": "paulstretch", "src": "audio/sources/debussy_reverie/debussy_reverie.wav", "in": 30.0, "len": 2.0, "stretch": 8, "at": 288.0, "dur": 12.0, "fade_in": 3.0, "fade_out": 0.4, "gain_db": -12}
+  ]
+}

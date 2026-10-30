@@ -1,0 +1,239 @@
+{
+ "duration": 300.0,
+ "out": "audio/soundtrack.wav",
+ "end_fade": 0.4,
+ "acts": [
+  [
+   0.0,
+   21.0,
+   "COLD OPEN"
+  ],
+  [
+   21.0,
+   65.0,
+   "I"
+  ],
+  [
+   65.0,
+   125.0,
+   "II"
+  ],
+  [
+   125.0,
+   180.3,
+   "III"
+  ],
+  [
+   180.3,
+   251.2,
+   "IV"
+  ],
+  [
+   251.2,
+   300.0,
+   "V"
+  ]
+ ],
+ "segments": [
+  {
+   "id": "P_industrial",
+   "src": "audio/sources/cc/Industrial_Revolution.wav",
+   "in": 40.36,
+   "at": 0.0,
+   "dur": 19.71,
+   "fade_in": 0.005,
+   "fade_out": 0.01,
+   "gain_db": 0
+  },
+  {
+   "id": "I_meta_head",
+   "src": "audio/sources/cc/Metaphysik.wav",
+   "in": 0.0,
+   "at": 21.0,
+   "dur": 35.7,
+   "fade_in": 1.5,
+   "fade_out": 2.0,
+   "gain_db": 3
+  },
+  {
+   "id": "I_meta_end",
+   "src": "audio/sources/cc/Metaphysik.wav",
+   "in": 264.53,
+   "at": 54.7,
+   "dur": 10.3,
+   "fade_in": 2.0,
+   "fade_out": 0.3,
+   "gain_db": 3
+  },
+  {
+   "id": "II_nightmare",
+   "src": "audio/sources/cc/Nightmare_Machine.wav",
+   "in": 0.07,
+   "at": 65.0,
+   "dur": 60.43,
+   "fade_in": 0.005,
+   "fade_out": 0.01,
+   "gain_db": 1
+  },
+  {
+   "id": "III_waltz_hd",
+   "src": "audio/sources/cc/Waltz_of_the_Carnies.wav",
+   "in": 0.0,
+   "at": 125.5,
+   "dur": 29.334,
+   "fade_in": 0.01,
+   "fade_out": 0.03,
+   "gain_db": 0
+  },
+  {
+   "id": "III_waltz_end",
+   "src": "audio/sources/cc/Waltz_of_the_Carnies.wav",
+   "in": 210.233,
+   "at": 154.804,
+   "dur": 25.426,
+   "fade_in": 0.03,
+   "fade_out": 0.2,
+   "gain_db": 0
+  },
+  {
+   "id": "IV_battle_hd",
+   "src": "audio/sources/cc/Final_Battle_of_the_Dark_Wizards.wav",
+   "in": 102.93,
+   "at": 180.3,
+   "dur": 38.533,
+   "fade_in": 0.005,
+   "fade_out": 0.03,
+   "gain_db": -3
+  },
+  {
+   "id": "IV_battle_end",
+   "src": "audio/sources/cc/Final_Battle_of_the_Dark_Wizards.wav",
+   "in": 237.865,
+   "at": 218.803,
+   "dur": 31.997,
+   "fade_in": 0.03,
+   "fade_out": 0.3,
+   "gain_db": -3
+  },
+  {
+   "id": "V_dreams_hd",
+   "src": "audio/sources/cc/Dreams_Become_Real.wav",
+   "in": 44.54,
+   "at": 251.3,
+   "dur": 30.653,
+   "fade_in": 0.05,
+   "fade_out": 0.03,
+   "gain_db": 5
+  },
+  {
+   "id": "V_dreams_end",
+   "src": "audio/sources/cc/Dreams_Become_Real.wav",
+   "in": 387.704,
+   "at": 281.923,
+   "dur": 18.077,
+   "fade_in": 0.03,
+   "fade_out": 0.5,
+   "gain_db": 5
+  }
+ ],
+ "fx": [
+  {
+   "type": "impact",
+   "at": 0.0,
+   "dur": 3.0,
+   "gain_db": -8
+  },
+  {
+   "type": "motif",
+   "at": 0.05,
+   "gain_db": -20
+  },
+  {
+   "type": "whoosh",
+   "at": 3.0,
+   "dur": 0.9,
+   "gain_db": -12
+  },
+  {
+   "type": "whoosh",
+   "at": 6.6,
+   "dur": 0.9,
+   "gain_db": -14
+  },
+  {
+   "type": "riser",
+   "at": 14.6,
+   "dur": 5.1,
+   "gain_db": -12
+  },
+  {
+   "type": "static",
+   "at": 19.71,
+   "dur": 0.9,
+   "gain_db": -10
+  },
+  {
+   "type": "motif",
+   "at": 20.6,
+   "gain_db": -15
+  },
+  {
+   "type": "motif",
+   "at": 64.2,
+   "gain_db": -17
+  },
+  {
+   "type": "impact",
+   "at": 65.0,
+   "dur": 3.0,
+   "gain_db": -12
+  },
+  {
+   "type": "stutter",
+   "at": 124.95,
+   "slice": 0.05,
+   "repeats": 10
+  },
+  {
+   "type": "static",
+   "at": 124.95,
+   "dur": 0.55,
+   "gain_db": -14
+  },
+  {
+   "type": "impact",
+   "at": 125.5,
+   "dur": 2.0,
+   "gain_db": -14
+  },
+  {
+   "type": "motif",
+   "at": 179.0,
+   "gain_db": -16
+  },
+  {
+   "type": "impact",
+   "at": 180.3,
+   "dur": 3.0,
+   "gain_db": -10
+  },
+  {
+   "type": "motif",
+   "at": 249.4,
+   "gain_db": -14
+  },
+  {
+   "type": "impact",
+   "at": 251.3,
+   "dur": 3.0,
+   "gain_db": -18
+  },
+  {
+   "type": "motif",
+   "at": 292.6,
+   "gain_db": -15,
+   "step": 0.8,
+   "dur": 5.0
+  }
+ ]
+}

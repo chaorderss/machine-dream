@@ -1,0 +1,25 @@
+{
+  "duration": 300.0,
+  "out": "audio/soundtrack.wav",
+  "end_fade": 0.4,
+  "segments": [
+    {"id": "industrial", "src": "audio/sources/cc/Industrial_Revolution.wav",            "in": 40.0,  "at": 0.0,   "dur": 15.0, "fade_in": 0.005, "fade_out": 0.05, "gain_db": 0},
+    {"id": "metaphysik", "src": "audio/sources/cc/Metaphysik.wav",                       "in": 0.0,   "at": 15.0,  "dur": 51.0, "fade_in": 0.02,  "fade_out": 2.5,  "gain_db": 3},
+    {"id": "nightmare",  "src": "audio/sources/cc/Nightmare_Machine.wav",                "in": 0.0,   "at": 64.0,  "dur": 61.0, "fade_in": 1.5,   "fade_out": 0.01, "gain_db": 1},
+    {"id": "carnies",    "src": "audio/sources/cc/Waltz_of_the_Carnies.wav",             "in": 0.0,   "at": 125.5, "dur": 55.5, "fade_in": 0.05,  "fade_out": 1.5,  "gain_db": 0},
+    {"id": "wizards",    "src": "audio/sources/cc/Final_Battle_of_the_Dark_Wizards.wav", "in": 190.0, "at": 179.5, "dur": 70.5, "fade_in": 0.5,   "fade_out": 0.03, "gain_db": -3},
+    {"id": "dreams",     "src": "audio/sources/cc/Dreams_Become_Real.wav",               "in": 45.0,  "at": 251.0, "dur": 49.0, "fade_in": 0.3,   "fade_out": 4.0,  "gain_db": 5}
+  ],
+  "fx": [
+    {"type": "impact",    "at": 0.0,    "dur": 3.0, "gain_db": -8},
+    {"type": "whoosh",    "at": 4.4,    "dur": 0.8, "gain_db": -12},
+    {"type": "whoosh",    "at": 9.4,    "dur": 0.8, "gain_db": -12},
+    {"type": "riser",     "at": 10.0,   "dur": 4.95, "gain_db": -12},
+    {"type": "silence",   "at": 14.95,  "dur": 0.1},
+    {"type": "stutter",   "at": 124.95, "slice": 0.05, "repeats": 10},
+    {"type": "silence",   "at": 179.4,  "dur": 0.1},
+    {"type": "riser",     "at": 245.0,  "dur": 5.0, "gain_db": -12},
+    {"type": "silence",   "at": 250.0,  "dur": 1.0},
+    {"type": "impact",    "at": 251.0,  "dur": 3.0, "gain_db": -18}
+  ]
+}

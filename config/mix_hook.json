@@ -1,0 +1,83 @@
+{
+  "base": "audio/soundtrack.wav",
+  "out": "audio/soundtrack_v13.wav",
+  "dur": 2.4,
+  "f_start": 96.0,
+  "f_end": 34.0,
+  "sweep": 11.0,
+  "decay": 2.3,
+  "click": 0.45,
+  "gain_db": -4.0,
+  "ceiling": 0.89,
+  "hum": {
+    "f0": 48.0,
+    "partials": [
+      [
+        1,
+        1.0
+      ],
+      [
+        2,
+        0.7
+      ],
+      [
+        3,
+        0.4
+      ],
+      [
+        5,
+        0.18
+      ],
+      [
+        7,
+        0.08
+      ]
+    ],
+    "gain_db": -29.0,
+    "power": 0.7,
+    "in": [
+      3.0,
+      4.5
+    ],
+    "out": [
+      292.0,
+      297.0
+    ]
+  },
+  "stop": {
+    "at": 240.12,
+    "fade": 0.05,
+    "floor_db": -38.0,
+    "back": [
+      247.6,
+      248.8
+    ],
+    "tone_db": -21.0,
+    "tail": [
+      246.7,
+      250.8
+    ]
+  },
+  "sfx": {
+    "tower": {
+      "at": 118.0,
+      "gain_db": -3.0
+    },
+    "shadow": {
+      "at": 153.0,
+      "gain_db": -10.0
+    },
+    "fall": {
+      "at": 176.4,
+      "gain_db": -10.0
+    },
+    "net": {
+      "at": 184.3,
+      "gain_db": -1.0
+    },
+    "gather": {
+      "at": 273.4,
+      "gain_db": -8.0
+    }
+  }
+}

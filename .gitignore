@@ -1,0 +1,15 @@
+# heavy / generated / third-party: kept on disk, not in history
+.venv/
+.venv-music/
+vendor/
+models/
+图库
+output/
+audio/
+analysis/*.npz
+assets/paintings/*.png
+assets/paintings/*.jpg
+__pycache__/
+*.pyc
+.DS_Store
+.cache/

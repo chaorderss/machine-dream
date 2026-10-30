@@ -1,0 +1,277 @@
+{
+ "duration": 300.0,
+ "out": "audio/soundtrack_ai_v6.wav",
+ "end_fade": 0.4,
+ "acts": [
+  [
+   0.0,
+   21.0,
+   "COLD OPEN"
+  ],
+  [
+   21.0,
+   65.0,
+   "I"
+  ],
+  [
+   65.0,
+   125.0,
+   "II"
+  ],
+  [
+   125.0,
+   180.3,
+   "III"
+  ],
+  [
+   180.3,
+   251.2,
+   "IV"
+  ],
+  [
+   251.2,
+   300.0,
+   "V"
+  ]
+ ],
+ "segments": [
+  {
+   "id": "P_coldopen",
+   "src": "audio/gen/s1_coldopen_seed37.wav",
+   "in": 0,
+   "at": 0,
+   "dur": 19.0,
+   "fade_in": 0.005,
+   "fade_out": 0.05,
+   "gain_db": 0,
+   "sub": {
+    "hz": 36.71,
+    "gain_db": -9
+   }
+  },
+  {
+   "id": "I_satie_hd",
+   "src": "audio/gen/s2_satie_seed23.wav",
+   "in": 0,
+   "at": 21.0,
+   "dur": 28.155,
+   "fade_in": 1.5,
+   "fade_out": 1.0,
+   "gain_db": 5
+  },
+  {
+   "id": "I_satie_end",
+   "src": "audio/gen/s2_satie_seed23.wav",
+   "in": 37.14,
+   "at": 48.155,
+   "dur": 16.845,
+   "fade_in": 1.0,
+   "fade_out": 0.3,
+   "gain_db": 5
+  },
+  {
+   "id": "II_fugue_hd",
+   "src": "audio/gen/s3_fugue_seed11.wav",
+   "in": 0,
+   "at": 65.0,
+   "dur": 52.832,
+   "fade_in": 0.005,
+   "fade_out": 0.03,
+   "gain_db": 0,
+   "sub": {
+    "hz": 36.71,
+    "gain_db": -12
+   }
+  },
+  {
+   "id": "II_fugue_end",
+   "src": "audio/gen/s3_fugue_seed11.wav",
+   "in": 54.822,
+   "at": 117.802,
+   "dur": 7.198,
+   "fade_in": 0.03,
+   "fade_out": 0.05,
+   "gain_db": 0,
+   "sub": {
+    "hz": 36.71,
+    "gain_db": -12
+   }
+  },
+  {
+   "id": "III_macabre_hd",
+   "src": "audio/gen/s4_macabre_seed37.wav",
+   "in": 0,
+   "at": 125.5,
+   "dur": 35.255,
+   "fade_in": 0.01,
+   "fade_out": 0.03,
+   "gain_db": 0,
+   "sub": {
+    "hz": 36.71,
+    "gain_db": -12
+   }
+  },
+  {
+   "id": "III_macabre_end",
+   "src": "audio/gen/s4_macabre_seed37.wav",
+   "in": 38.824,
+   "at": 160.725,
+   "dur": 19.575,
+   "fade_in": 0.03,
+   "fade_out": 0.2,
+   "gain_db": 0,
+   "sub": {
+    "hz": 36.71,
+    "gain_db": -12
+   }
+  },
+  {
+   "id": "IV_overload_hd",
+   "src": "audio/gen/s5_overload_seed11.wav",
+   "in": 0,
+   "at": 180.3,
+   "dur": 40.108,
+   "fade_in": 0.005,
+   "fade_out": 0.03,
+   "gain_db": 0,
+   "sub": {
+    "hz": 36.71,
+    "gain_db": -9
+   }
+  },
+  {
+   "id": "IV_overload_end",
+   "src": "audio/gen/s5_overload_seed11.wav",
+   "in": 48.089,
+   "at": 220.378,
+   "dur": 30.9,
+   "fade_in": 0.03,
+   "fade_out": 0.3,
+   "gain_db": 0,
+   "sub": {
+    "hz": 36.71,
+    "gain_db": -9
+   }
+  },
+  {
+   "id": "V_reverie_hd",
+   "src": "audio/gen/s6_reverie_seed11.wav",
+   "in": 0,
+   "at": 251.3,
+   "dur": 31.236,
+   "fade_in": 0.05,
+   "fade_out": 0.8,
+   "gain_db": 3
+  },
+  {
+   "id": "V_reverie_end",
+   "src": "audio/gen/s6_reverie_seed11.wav",
+   "in": 34.082,
+   "at": 281.736,
+   "dur": 17.9,
+   "fade_in": 0.8,
+   "fade_out": 0.5,
+   "gain_db": 3
+  }
+ ],
+ "fx": [
+  {
+   "type": "impact",
+   "at": 0.0,
+   "dur": 3.0,
+   "gain_db": -8
+  },
+  {
+   "type": "motif",
+   "at": 0.05,
+   "gain_db": -20
+  },
+  {
+   "type": "whoosh",
+   "at": 3.0,
+   "dur": 0.9,
+   "gain_db": -12
+  },
+  {
+   "type": "whoosh",
+   "at": 6.6,
+   "dur": 0.9,
+   "gain_db": -14
+  },
+  {
+   "type": "riser",
+   "at": 14.6,
+   "dur": 5.1,
+   "gain_db": -12
+  },
+  {
+   "type": "static",
+   "at": 19.71,
+   "dur": 0.9,
+   "gain_db": -10
+  },
+  {
+   "type": "motif",
+   "at": 20.6,
+   "gain_db": -15
+  },
+  {
+   "type": "motif",
+   "at": 64.2,
+   "gain_db": -17
+  },
+  {
+   "type": "impact",
+   "at": 65.0,
+   "dur": 3.0,
+   "gain_db": -12
+  },
+  {
+   "type": "stutter",
+   "at": 124.95,
+   "slice": 0.05,
+   "repeats": 10
+  },
+  {
+   "type": "static",
+   "at": 124.95,
+   "dur": 0.55,
+   "gain_db": -14
+  },
+  {
+   "type": "impact",
+   "at": 125.5,
+   "dur": 2.0,
+   "gain_db": -14
+  },
+  {
+   "type": "motif",
+   "at": 179.0,
+   "gain_db": -16
+  },
+  {
+   "type": "impact",
+   "at": 180.3,
+   "dur": 3.0,
+   "gain_db": -10
+  },
+  {
+   "type": "motif",
+   "at": 249.4,
+   "gain_db": -14
+  },
+  {
+   "type": "impact",
+   "at": 251.3,
+   "dur": 3.0,
+   "gain_db": -18
+  },
+  {
+   "type": "motif",
+   "at": 292.6,
+   "gain_db": -15,
+   "step": 0.8,
+   "dur": 5.0
+  }
+ ]
+}
